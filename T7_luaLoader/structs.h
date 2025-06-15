@@ -1,7 +1,6 @@
 #pragma once
 
 TYPE_BEGIN(struct HksCompilerSettings, 0x20);
-
 TYPE_END();
 
 TYPE_BEGIN(struct Hksglobal, 0x5B0);
