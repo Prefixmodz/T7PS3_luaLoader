@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="prx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{00dc179c-85c6-4762-9c54-cef4ac842159}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{5f1d380b-023a-4083-a0c9-1264c40b141e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\t7zm">
+      <UniqueIdentifier>{963c428a-bcfa-40d1-bce8-62d0b67f38fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{77e0bb0b-7b21-4ec2-9d30-92b0de055d26}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>src\game\t7zm</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>src\game\t7zm</Filter>
+    </ClInclude>
+    <ClInclude Include="addresses.h">
+      <Filter>src\game\t7zm</Filter>
+    </ClInclude>
+    <ClInclude Include="symbols.h">
+      <Filter>src\game\t7zm</Filter>
+    </ClInclude>
+    <ClInclude Include="structParse.h">
+      <Filter>src\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
