@@ -20,3 +20,5 @@ bin-release/
 /dependencies/libpsutil/libpsutil/PS3_Release
 /T7_luaLoader/.vs
 /T7_luaLoader/PS3_Debug
+/Debug
+T7_luaLoader/cellPrx_T7_luaLoader_verlog.txt

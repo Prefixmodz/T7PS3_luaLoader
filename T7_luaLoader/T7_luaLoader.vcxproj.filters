@@ -15,11 +15,11 @@
     <Filter Include="src\game">
       <UniqueIdentifier>{5f1d380b-023a-4083-a0c9-1264c40b141e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\game\t7zm">
-      <UniqueIdentifier>{963c428a-bcfa-40d1-bce8-62d0b67f38fd}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src\utils">
       <UniqueIdentifier>{77e0bb0b-7b21-4ec2-9d30-92b0de055d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\t7">
+      <UniqueIdentifier>{963c428a-bcfa-40d1-bce8-62d0b67f38fd}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -27,16 +27,16 @@
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="enums.h">
-      <Filter>src\game\t7zm</Filter>
+      <Filter>src\game\t7</Filter>
     </ClInclude>
     <ClInclude Include="structs.h">
-      <Filter>src\game\t7zm</Filter>
+      <Filter>src\game\t7</Filter>
     </ClInclude>
     <ClInclude Include="addresses.h">
-      <Filter>src\game\t7zm</Filter>
+      <Filter>src\game\t7</Filter>
     </ClInclude>
     <ClInclude Include="symbols.h">
-      <Filter>src\game\t7zm</Filter>
+      <Filter>src\game\t7</Filter>
     </ClInclude>
     <ClInclude Include="structParse.h">
       <Filter>src\utils</Filter>
